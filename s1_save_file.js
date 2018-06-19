@@ -10,4 +10,4 @@ app.get('/', function(req, res) {
   console.log("got new req %j", req.query);
 });
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(3000, () => console.log('Example app listening on port 3000!')) // 3000 == num of port // allow == callback (function  => consloe.log)
